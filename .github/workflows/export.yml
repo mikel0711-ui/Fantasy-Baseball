@@ -1,25 +1,31 @@
-name: Export ESPN Fantasy
+name: Fantasy Baseball Export
 
 on:
   workflow_dispatch:
 
 jobs:
   export:
+
     runs-on: ubuntu-latest
 
     steps:
+
       - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
-      - name: Install packages
-        run: pip install -r requirements.txt
+      - run: pip install -r requirements.txt
 
-      - name: Run exporter
+      - name: Run Export
         env:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           SWID: ${{ secrets.SWID }}
         run: python export.py
+
+      - name: Upload Files
+        uses: actions/upload-artifact@v4
+        with:
+          name: fantasy-export
+          path: exports/
