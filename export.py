@@ -15,5 +15,6 @@ league = load_league()
 standings.export(league, folder)
 rosters.export(league, folder)
 owners.export(league, folder)
+snapshot.export(league, folder)
 
 print("Export complete.")
