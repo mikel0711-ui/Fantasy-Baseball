@@ -1,4 +1,4 @@
-name: Fantasy Baseball Export
+name: fantasy-export-${{ github.run_number }}
 
 on:
   workflow_dispatch:
