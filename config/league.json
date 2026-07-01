@@ -27,3 +27,14 @@
 
   "projection_source": "FanGraphs"
 }
+
+{
+  "keepers": {
+    "enabled": true,
+    "count": 5,
+    "max_years": 3,
+    "cost": "one_round_earlier",
+    "first_round_eligible": false,
+    "undrafted_round": "last"
+  }
+}
