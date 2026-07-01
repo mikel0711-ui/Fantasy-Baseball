@@ -5,6 +5,7 @@ from modules.league import load_league
 from modules import standings
 from modules import rosters
 from modules import owners
+from modules import snapshot
 
 folder = Path(EXPORT_DIR)
 folder.mkdir(exist_ok=True)
