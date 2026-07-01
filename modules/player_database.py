@@ -5,33 +5,50 @@ import pandas as pd
 from modules import projections
 
 
+def add_draft_info(record, name, draft_lookup):
+    """Add draft and keeper information to a player record."""
+
+    if name in draft_lookup.index:
+        draft = draft_lookup.loc[name]
+
+        draft_round = int(draft["Round"])
+
+        record["Draft Round"] = draft_round
+        record["Overall Pick"] = int(draft["Overall Pick"])
+        record["Original Owner"] = draft["Draft Team"]
+
+        if draft_round == 1:
+            record["Keeper Eligible"] = False
+            record["Keeper Round"] = None
+        else:
+            record["Keeper Eligible"] = True
+            record["Keeper Round"] = draft_round - 1
+
+    else:
+        # Undrafted players
+        record["Draft Round"] = None
+        record["Overall Pick"] = None
+        record["Original Owner"] = None
+        record["Keeper Eligible"] = True
+        record["Keeper Round"] = "Last"
+
+    return record
+
+
 def export(folder):
     """
-    Build a unified player database from:
-      - league_snapshot.json
-      - free_agents.csv
-      - FanGraphs projections
+    Build a unified player database.
     """
 
     folder = Path(folder)
 
-    snapshot = json.load(open(folder / "league_snapshot.json", "r"))
+    with open(folder / "league_snapshot.json", "r") as f:
+        snapshot = json.load(f)
 
     free_agents = pd.read_csv(folder / "free_agents.csv")
 
     projection_df = projections.load()
 
-    draft_df = pd.read_csv(folder / "draft_results.csv")
-
-draft_lookup = (
-    draft_df
-    .drop_duplicates("Player")
-    .set_index("Player")
-)
-
-    # -----------------------------
-    # Normalize projection names
-    # -----------------------------
     projection_df["Player"] = (
         projection_df["Name"]
         .astype(str)
@@ -39,13 +56,19 @@ draft_lookup = (
     )
 
     projection_df = projection_df.drop_duplicates("Player")
-
     projection_lookup = projection_df.set_index("Player")
+
+    draft_df = pd.read_csv(folder / "draft_results.csv")
+    draft_lookup = (
+        draft_df
+        .drop_duplicates("Player")
+        .set_index("Player")
+    )
 
     players = []
 
     # -----------------------------
-    # Rostered players
+    # Rostered Players
     # -----------------------------
     for team in snapshot["teams"]:
 
@@ -73,37 +96,11 @@ draft_lookup = (
                 proj = projection_lookup.loc[name]
 
                 for col in projection_df.columns:
-                    if col == "Player":
-                        continue
-                    record[col] = proj[col]
-            # Draft Information
-if name in draft_lookup.index:
+                    if col != "Player":
+                        record[col] = proj[col]
 
-    draft = draft_lookup.loc[name]
+            record = add_draft_info(record, name, draft_lookup)
 
-    draft_round = int(draft["Round"])
-
-    record["Draft Round"] = draft_round
-    record["Overall Pick"] = int(draft["Overall Pick"])
-    record["Original Owner"] = draft["Draft Team"]
-
-    if draft_round == 1:
-        record["Keeper Eligible"] = False
-        record["Keeper Round"] = None
-    else:
-        record["Keeper Eligible"] = True
-        record["Keeper Round"] = draft_round - 1
-
-else:
-
-    record["Draft Round"] = None
-    record["Overall Pick"] = None
-    record["Original Owner"] = None
-
-    record["Keeper Eligible"] = True
-    record["Keeper Round"] = "Last"
-
-            
             players.append(record)
 
     # -----------------------------
@@ -136,37 +133,11 @@ else:
             proj = projection_lookup.loc[name]
 
             for col in projection_df.columns:
-                if col == "Player":
-                    continue
-                record[col] = proj[col]
+                if col != "Player":
+                    record[col] = proj[col]
 
+        record = add_draft_info(record, name, draft_lookup)
 
-        # Draft Information
-if name in draft_lookup.index:
-
-    draft = draft_lookup.loc[name]
-
-    draft_round = int(draft["Round"])
-
-    record["Draft Round"] = draft_round
-    record["Overall Pick"] = int(draft["Overall Pick"])
-    record["Original Owner"] = draft["Draft Team"]
-
-    if draft_round == 1:
-        record["Keeper Eligible"] = False
-        record["Keeper Round"] = None
-    else:
-        record["Keeper Eligible"] = True
-        record["Keeper Round"] = draft_round - 1
-
-else:
-
-    record["Draft Round"] = None
-    record["Overall Pick"] = None
-    record["Original Owner"] = None
-
-    record["Keeper Eligible"] = True
-    record["Keeper Round"] = "Last"
         players.append(record)
 
     database = pd.DataFrame(players)
