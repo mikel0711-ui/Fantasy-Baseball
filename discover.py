@@ -1,8 +1,18 @@
 from modules.league import load_league
-import inspect
 
 league = load_league()
 
-print(inspect.signature(league.free_agents))
-print()
-print(league.free_agents.__doc__)
+player = league.free_agents(size=1)[0]
+
+print("PLAYER ATTRIBUTES")
+print("-----------------")
+
+for attr in sorted(dir(player)):
+    if attr.startswith("_"):
+        continue
+
+    try:
+        value = getattr(player, attr)
+        print(f"{attr}: {value}")
+    except Exception:
+        pass
