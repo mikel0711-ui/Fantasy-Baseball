@@ -1,42 +1,40 @@
 import pandas as pd
 
+from modules.league import load_league
 
-def export(league, folder):
-    """
-    Export the top available free agents.
-    """
 
-    free_agents = league.free_agents(size=500)
+def export(folder):
+
+    league = load_league()
 
     rows = []
 
-    for player in free_agents:
+    players = league.free_agents(size=1500)
 
-        try:
-            positions = ",".join(player.eligibleSlots)
-        except Exception:
-            positions = ""
+    for player in players:
 
         rows.append({
             "Player": player.name,
-            "Position": player.position,
-            "Eligible": positions,
-            "MLB Team": player.proTeam,
-            "Owned %": player.percent_owned,
-            "Started %": player.percent_started,
-            "Injured": player.injured,
-            "Injury": player.injuryStatus,
-            "Status": player.status,
+            "Status": getattr(player, "status", ""),
+            "Owned %": getattr(player, "percent_owned", None),
+            "Started %": getattr(player, "percent_started", None),
+            "MLB Team": getattr(player, "proTeam", ""),
+            "Position": getattr(player, "position", ""),
+            "Eligible": ",".join(getattr(player, "eligibleSlots", [])),
+            "Injury": getattr(player, "injuryStatus", ""),
         })
 
     df = pd.DataFrame(rows)
 
-    df = df.sort_values(
-        by="Owned %",
-        ascending=False
+    df.sort_values(
+        ["Status", "Owned %"],
+        ascending=[True, False],
+        inplace=True
     )
 
     df.to_csv(
         folder / "free_agents.csv",
         index=False
     )
+
+    print(f"Created free_agents.csv ({len(df)} players)")
