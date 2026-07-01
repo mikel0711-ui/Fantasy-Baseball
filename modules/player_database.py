@@ -21,6 +21,14 @@ def export(folder):
 
     projection_df = projections.load()
 
+    draft_df = pd.read_csv(folder / "draft_results.csv")
+
+draft_lookup = (
+    draft_df
+    .drop_duplicates("Player")
+    .set_index("Player")
+)
+
     # -----------------------------
     # Normalize projection names
     # -----------------------------
