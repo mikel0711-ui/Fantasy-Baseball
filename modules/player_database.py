@@ -76,7 +76,34 @@ draft_lookup = (
                     if col == "Player":
                         continue
                     record[col] = proj[col]
+            # Draft Information
+if name in draft_lookup.index:
 
+    draft = draft_lookup.loc[name]
+
+    draft_round = int(draft["Round"])
+
+    record["Draft Round"] = draft_round
+    record["Overall Pick"] = int(draft["Overall Pick"])
+    record["Original Owner"] = draft["Draft Team"]
+
+    if draft_round == 1:
+        record["Keeper Eligible"] = False
+        record["Keeper Round"] = None
+    else:
+        record["Keeper Eligible"] = True
+        record["Keeper Round"] = draft_round - 1
+
+else:
+
+    record["Draft Round"] = None
+    record["Overall Pick"] = None
+    record["Original Owner"] = None
+
+    record["Keeper Eligible"] = True
+    record["Keeper Round"] = "Last"
+
+            
             players.append(record)
 
     # -----------------------------
