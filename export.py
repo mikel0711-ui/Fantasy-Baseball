@@ -9,6 +9,7 @@ from modules import snapshot
 from modules import free_agents
 from modules import projections
 from modules import player_database
+from modules import draft
 
 folder = Path(EXPORT_DIR)
 folder.mkdir(exist_ok=True)
@@ -21,6 +22,7 @@ owners.export(league, folder)
 snapshot.export(league, folder)
 free_agents.export(league, folder)
 projections.export(folder)
+draft.export(folder)
 player_database.export(folder)
 
 print("Export complete.")
