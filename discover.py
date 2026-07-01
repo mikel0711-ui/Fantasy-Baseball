@@ -3,22 +3,35 @@ from pprint import pprint
 
 league = load_league()
 
-# Find your team
-for team in league.teams:
-    if team.team_name == "Shitty Mike":
+print("=" * 80)
+print("SEARCHING FREE AGENTS")
+print("=" * 80)
 
-        print("=" * 80)
-        print("TEAM ATTRIBUTES")
-        print("=" * 80)
+found = False
 
-        pprint(team.__dict__)
+for player in league.free_agents(size=500):
+
+    if player.name == "Cole Young":
+
+        found = True
 
         print("\n")
         print("=" * 80)
-        print("ROSTER")
+        print("COLE YOUNG FOUND")
         print("=" * 80)
 
-        for player in team.roster:
-            print(player.name)
+        pprint(player.__dict__)
+
+        print("\n")
+        print("=" * 80)
+        print("AVAILABLE ATTRIBUTES")
+        print("=" * 80)
+
+        for attr in sorted(dir(player)):
+            if not attr.startswith("_"):
+                print(attr)
 
         break
+
+if not found:
+    print("\nCole Young is NOT in the top 500 free agents.")
