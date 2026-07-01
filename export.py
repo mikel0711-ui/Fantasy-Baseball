@@ -6,6 +6,7 @@ from modules import standings
 from modules import rosters
 from modules import owners
 from modules import snapshot
+from modules import free_agents
 
 folder = Path(EXPORT_DIR)
 folder.mkdir(exist_ok=True)
@@ -16,5 +17,6 @@ standings.export(league, folder)
 rosters.export(league, folder)
 owners.export(league, folder)
 snapshot.export(league, folder)
+free_agents.export(league, folder)
 
 print("Export complete.")
