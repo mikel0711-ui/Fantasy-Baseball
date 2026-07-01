@@ -1,0 +1,29 @@
+{
+  "team_name": "Shitty Mike",
+
+  "league": {
+    "type": "Head-to-Head Categories",
+    "teams": 10
+  },
+
+  "categories": {
+    "hitters": [
+      "R",
+      "HR",
+      "RBI",
+      "SB",
+      "OBP",
+      "SLG"
+    ],
+    "pitchers": [
+      "K",
+      "K/9",
+      "ERA",
+      "WHIP",
+      "SVHD",
+      "QS"
+    ]
+  },
+
+  "projection_source": "FanGraphs"
+}
