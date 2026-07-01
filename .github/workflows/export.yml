@@ -23,7 +23,7 @@ jobs:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           SWID: ${{ secrets.SWID }}
         run: python export.py
-        python inspect.py
+             python inspect.py
 
       - name: Upload Files
         uses: actions/upload-artifact@v4
