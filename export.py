@@ -1,3 +1,4 @@
+from datetime import date
 from pathlib import Path
 
 from config import EXPORT_DIR
@@ -10,9 +11,11 @@ from modules import free_agents
 from modules import projections
 from modules import player_database
 from modules import draft
+from modules import matchups
 
-folder = Path(EXPORT_DIR)
-folder.mkdir(exist_ok=True)
+today = date.today().isoformat()  # e.g. "2026-07-02"
+folder = Path(EXPORT_DIR) / today
+folder.mkdir(parents=True, exist_ok=True)
 
 league = load_league()
 
@@ -24,5 +27,6 @@ free_agents.export(league, folder)
 projections.export(folder)
 draft.export(folder)
 player_database.export(folder)
+matchups.export(league, folder)
 
-print("Export complete.")
+print(f"Export complete: {folder}")
