@@ -19,6 +19,8 @@ folder.mkdir(parents=True, exist_ok=True)
 
 league = load_league()
 
+print(f"Scoring type: {league.scoring_type}")
+
 standings.export(league, folder)
 rosters.export(league, folder)
 owners.export(league, folder)
