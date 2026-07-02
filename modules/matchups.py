@@ -5,7 +5,7 @@ from config import MY_TEAM
 
 def export(league, folder):
     """
-    Export current and next week's matchups for MY_TEAM, using each
+    Export current and next week's opponent for MY_TEAM, using each
     team's schedule list. This is reliable for future weeks, unlike
     box_scores(), which only reflects the in-progress matchup period.
     """
@@ -28,20 +28,13 @@ def export(league, folder):
 
         if matchup.home_team.team_id == my_team.team_id:
             opponent = matchup.away_team
-            my_score = matchup.home_final_score
-            opp_score = matchup.away_final_score
         else:
             opponent = matchup.home_team
-            my_score = matchup.away_final_score
-            opp_score = matchup.home_final_score
 
         rows.append({
             "Period Type": label,
             "Matchup Period": period_num,
             "Opponent": opponent.team_name,
-            "My Score": my_score,
-            "Opponent Score": opp_score,
-            "Winner": matchup.winner,
         })
 
     pd.DataFrame(rows).to_csv(
