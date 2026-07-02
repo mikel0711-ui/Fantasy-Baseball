@@ -5,10 +5,7 @@ league = load_league()
 
 my_team = next(t for t in league.teams if t.team_name == MY_TEAM)
 
-print(f"Current matchup period: {league.currentMatchupPeriod}")
-print(f"Schedule length: {len(my_team.schedule)}")
-print(f"Schedule type: {type(my_team.schedule)}")
-print()
+next_matchup = my_team.schedule[league.currentMatchupPeriod]  # index = next period - 1
 
-for i, opponent in enumerate(my_team.schedule):
-    print(f"Index {i}: {opponent}")
+print("Matchup-level attributes:")
+print([attr for attr in dir(next_matchup) if not attr.startswith("_")])
