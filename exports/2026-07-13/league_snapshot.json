@@ -1,0 +1,3533 @@
+{
+  "league": {
+    "name": "Bros Bros Bros",
+    "teams": 10
+  },
+  "standings": [
+    {
+      "team": "Jazz Hands",
+      "wins": 8,
+      "losses": 6,
+      "ties": 0
+    },
+    {
+      "team": "Shitty Mike",
+      "wins": 8,
+      "losses": 4,
+      "ties": 2
+    },
+    {
+      "team": "Jobu's Rum Runners",
+      "wins": 6,
+      "losses": 7,
+      "ties": 1
+    },
+    {
+      "team": "Mookie Monstahs",
+      "wins": 10,
+      "losses": 3,
+      "ties": 1
+    },
+    {
+      "team": "Master Bader",
+      "wins": 6,
+      "losses": 7,
+      "ties": 1
+    },
+    {
+      "team": "Houck Tuah",
+      "wins": 7,
+      "losses": 7,
+      "ties": 0
+    },
+    {
+      "team": "George Clooneys",
+      "wins": 6,
+      "losses": 7,
+      "ties": 1
+    },
+    {
+      "team": "Team Quinn",
+      "wins": 3,
+      "losses": 9,
+      "ties": 2
+    },
+    {
+      "team": "Mayor of Titty-City",
+      "wins": 5,
+      "losses": 8,
+      "ties": 1
+    },
+    {
+      "team": "yahtzee BEEZNUTZ",
+      "wins": 6,
+      "losses": 7,
+      "ties": 1
+    }
+  ],
+  "teams": [
+    {
+      "team": "Jazz Hands",
+      "roster": [
+        {
+          "name": "Kyle Tucker",
+          "positions": [
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Gunnar Henderson",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Freddie Freeman",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Zach Neto",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Austin Riley",
+          "positions": [
+            "3B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Cal Raleigh",
+          "positions": [
+            "C",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Michael Harris II",
+          "positions": [
+            "CF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Yandy Diaz",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Michael King",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Tyler Glasnow",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "SIXTY_DAY_DL"
+        },
+        {
+          "name": "Blake Snell",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "SIXTY_DAY_DL"
+        },
+        {
+          "name": "Josh Hader",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Wilyer Abreu",
+          "positions": [
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Aroldis Chapman",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Tarik Skubal",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Chase Burns",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Emerson Hancock",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "DAY_TO_DAY"
+        },
+        {
+          "name": "Jose Soriano",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Parker Messick",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Gregory Soto",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Otto Lopez",
+          "positions": [
+            "2B",
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Adley Rutschman",
+          "positions": [
+            "C",
+            "UTIL",
+            "BE",
+            "IL",
+            "DH"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Colson Montgomery",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL",
+            "3B",
+            "1B/3B"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Michael McGreevy",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Casey Schmitt",
+          "positions": [
+            "2B",
+            "3B",
+            "2B/SS",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL",
+            "DH",
+            "1B",
+            "LF",
+            "OF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Yoendrys Gomez",
+          "positions": [
+            "P",
+            "SP",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Jose Caballero",
+          "positions": [
+            "2B",
+            "3B",
+            "SS",
+            "2B/SS",
+            "1B/3B",
+            "IF",
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Joshua Baez",
+          "positions": [
+            "CF",
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Teoscar Hernandez",
+          "positions": [
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "LF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Robert Gasser",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team": "Shitty Mike",
+      "roster": [
+        {
+          "name": "Ronald Acuna Jr.",
+          "positions": [
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "TEN_DAY_DL"
+        },
+        {
+          "name": "Vladimir Guerrero Jr.",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Rafael Devers",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Mason Miller",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Byron Buxton",
+          "positions": [
+            "CF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "DH"
+          ],
+          "injury": "TEN_DAY_DL"
+        },
+        {
+          "name": "Corey Seager",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "TEN_DAY_DL"
+        },
+        {
+          "name": "Will Smith",
+          "positions": [
+            "C",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "TEN_DAY_DL"
+        },
+        {
+          "name": "Zack Wheeler",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "George Kirby",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Munetaka Murakami",
+          "positions": [
+            "3B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL",
+            "1B"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Ian Happ",
+          "positions": [
+            "LF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Jesus Luzardo",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Ivan Herrera",
+          "positions": [
+            "DH",
+            "UTIL",
+            "BE",
+            "IL",
+            "C"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Jacob deGrom",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "DAY_TO_DAY"
+        },
+        {
+          "name": "Cam Schlittler",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Hunter Greene",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Will Warren",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Tanner Scott",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Jordan Walker",
+          "positions": [
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Taj Bradley",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Louis Varland",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Miguel Vargas",
+          "positions": [
+            "1B",
+            "3B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Trevor Megill",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Nick Lodolo",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "FIFTEEN_DAY_DL"
+        },
+        {
+          "name": "Dansby Swanson",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Jake McCarthy",
+          "positions": [
+            "LF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "CF",
+            "RF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Griffin Jax",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL",
+            "SP"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Cole Young",
+          "positions": [
+            "2B",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Michael Busch",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Gavin Sheets",
+          "positions": [
+            "LF",
+            "OF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL",
+            "1B",
+            "1B/3B",
+            "IF"
+          ],
+          "injury": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team": "Jobu's Rum Runners",
+      "roster": [
+        {
+          "name": "Juan Soto",
+          "positions": [
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "DH",
+            "LF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Jackson Chourio",
+          "positions": [
+            "LF",
+            "CF",
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Trea Turner",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Chris Sale",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Framber Valdez",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "BEREAVEMENT"
+        },
+        {
+          "name": "Josh Naylor",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Maikel Garcia",
+          "positions": [
+            "3B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "TEN_DAY_DL"
+        },
+        {
+          "name": "Devin Williams",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Christian Yelich",
+          "positions": [
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Nathan Eovaldi",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Taylor Ward",
+          "positions": [
+            "LF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "DH"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Luis Castillo",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Ryan Helsley",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "FIFTEEN_DAY_DL"
+        },
+        {
+          "name": "Brice Turang",
+          "positions": [
+            "2B",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Brandon Woodruff",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "SIXTY_DAY_DL"
+        },
+        {
+          "name": "Carlos Rodon",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "FIFTEEN_DAY_DL"
+        },
+        {
+          "name": "Eugenio Suarez",
+          "positions": [
+            "3B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL",
+            "DH"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Ranger Suarez",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "FIFTEEN_DAY_DL"
+        },
+        {
+          "name": "Corbin Burnes",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "SIXTY_DAY_DL"
+        },
+        {
+          "name": "Brandon Nimmo",
+          "positions": [
+            "LF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "RF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Xavier Edwards",
+          "positions": [
+            "2B",
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Jesus Made",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Ryan O'Hearn",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "RF",
+            "OF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Michael Wacha",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Paul Sewald",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Riley O'Brien",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Justin Wrobleski",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL",
+            "SP"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Zac Gallen",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "FIFTEEN_DAY_DL"
+        },
+        {
+          "name": "Salvador Perez",
+          "positions": [
+            "C",
+            "1B",
+            "1B/3B",
+            "IF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Shane Baz",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team": "Mookie Monstahs",
+      "roster": [
+        {
+          "name": "Shohei Ohtani",
+          "positions": [
+            "DH",
+            "UTIL",
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Yordan Alvarez",
+          "positions": [
+            "LF",
+            "OF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Brent Rooker",
+          "positions": [
+            "RF",
+            "OF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "TEN_DAY_DL"
+        },
+        {
+          "name": "Mookie Betts",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Jhoan Duran",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Konnor Griffin",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "SIXTY_DAY_DL"
+        },
+        {
+          "name": "Nolan McLean",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Junior Caminero",
+          "positions": [
+            "3B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Kerry Carpenter",
+          "positions": [
+            "LF",
+            "RF",
+            "OF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Connelly Early",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "FIFTEEN_DAY_DL"
+        },
+        {
+          "name": "Ryan Weathers",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Hunter Goodman",
+          "positions": [
+            "C",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "James Wood",
+          "positions": [
+            "LF",
+            "OF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL",
+            "RF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Ben Rice",
+          "positions": [
+            "C",
+            "1B",
+            "1B/3B",
+            "IF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Chase DeLauter",
+          "positions": [
+            "LF",
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "DH"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Michael Soroka",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "FIFTEEN_DAY_DL"
+        },
+        {
+          "name": "Max Meyer",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Bryce Elder",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Jazz Chisholm Jr.",
+          "positions": [
+            "2B",
+            "3B",
+            "2B/SS",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Reid Detmers",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL",
+            "SP"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Jonathan Aranda",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Dillon Dingler",
+          "positions": [
+            "C",
+            "UTIL",
+            "BE",
+            "IL",
+            "DH"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Landen Roupp",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Cade Cavalli",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Gage Jump",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Bryce Eldridge",
+          "positions": [
+            "DH",
+            "UTIL",
+            "BE",
+            "IL",
+            "1B",
+            "1B/3B",
+            "IF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Kyle Stowers",
+          "positions": [
+            "LF",
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "1B",
+            "1B/3B",
+            "IF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Kyle Bradish",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Braden Montgomery",
+          "positions": [
+            "CF",
+            "RF",
+            "OF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Charlie Condon",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team": "Master Bader",
+      "roster": [
+        {
+          "name": "Aaron Judge",
+          "positions": [
+            "RF",
+            "OF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "TEN_DAY_DL"
+        },
+        {
+          "name": "Bryce Harper",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Edwin Diaz",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "SIXTY_DAY_DL"
+        },
+        {
+          "name": "Hunter Brown",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "CJ Abrams",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Raisel Iglesias",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Abner Uribe",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Robbie Ray",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Christian Walker",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Daylen Lile",
+          "positions": [
+            "LF",
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "DH"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Edward Cabrera",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "FIFTEEN_DAY_DL"
+        },
+        {
+          "name": "Bailey Ober",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Travis Bazzana",
+          "positions": [
+            "2B",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Jackson Merrill",
+          "positions": [
+            "CF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Roman Anthony",
+          "positions": [
+            "LF",
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "DH"
+          ],
+          "injury": "SIXTY_DAY_DL"
+        },
+        {
+          "name": "Giancarlo Stanton",
+          "positions": [
+            "RF",
+            "OF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "TEN_DAY_DL"
+        },
+        {
+          "name": "Kyle Harrison",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "FIFTEEN_DAY_DL"
+        },
+        {
+          "name": "Xander Bogaerts",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Spencer Arrighetti",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Bryan Woo",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Davis Martin",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Matt Chapman",
+          "positions": [
+            "3B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "TEN_DAY_DL"
+        },
+        {
+          "name": "Carson Kelly",
+          "positions": [
+            "C",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Ceddanne Rafaela",
+          "positions": [
+            "2B",
+            "2B/SS",
+            "IF",
+            "CF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Carlos Cortes",
+          "positions": [
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "DH",
+            "LF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Shane Drohan",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL",
+            "RP"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Blaze Jordan",
+          "positions": [
+            "1B",
+            "3B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Anthony Kay",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Cole Carrigg",
+          "positions": [
+            "CF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Troy Melton",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL",
+            "SP"
+          ],
+          "injury": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team": "Houck Tuah",
+      "roster": [
+        {
+          "name": "Corbin Carroll",
+          "positions": [
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Francisco Lindor",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Logan Webb",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Alex Bregman",
+          "positions": [
+            "3B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Andres Munoz",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Cody Bellinger",
+          "positions": [
+            "LF",
+            "CF",
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Joe Ryan",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Kevin Gausman",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Sonny Gray",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Ozzie Albies",
+          "positions": [
+            "2B",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Elly De La Cruz",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Brenton Doyle",
+          "positions": [
+            "CF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "TEN_DAY_DL"
+        },
+        {
+          "name": "Gerrit Cole",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Tanner Bibee",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Mickey Moniak",
+          "positions": [
+            "CF",
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "LF",
+            "DH"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Emmet Sheehan",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Samuel Basallo",
+          "positions": [
+            "C",
+            "UTIL",
+            "BE",
+            "IL",
+            "DH"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Sal Stewart",
+          "positions": [
+            "1B",
+            "3B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Kevin McGonigle",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL",
+            "3B",
+            "1B/3B"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Noah Schultz",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Payton Tolle",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Wyatt Langford",
+          "positions": [
+            "LF",
+            "CF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Braxton Ashcraft",
+          "positions": [
+            "P",
+            "SP",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Jake Bauers",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "LF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "RF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Dominic Canzone",
+          "positions": [
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "DH"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Trent Grisham",
+          "positions": [
+            "CF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "TJ Rumfield",
+          "positions": [
+            "3B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL",
+            "1B",
+            "DH"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Robert Suarez",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "FIFTEEN_DAY_DL"
+        },
+        {
+          "name": "Hogan Harris",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Peter Lambert",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL",
+            "SP"
+          ],
+          "injury": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team": "George Clooneys",
+      "roster": [
+        {
+          "name": "Kyle Schwarber",
+          "positions": [
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Pete Alonso",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Freddy Peralta",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Dylan Cease",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Carter Jensen",
+          "positions": [
+            "C",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Riley Greene",
+          "positions": [
+            "LF",
+            "OF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Seiya Suzuki",
+          "positions": [
+            "RF",
+            "OF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Andy Pages",
+          "positions": [
+            "LF",
+            "CF",
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Brandon Lowe",
+          "positions": [
+            "2B",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Trey Yesavage",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Paul Skenes",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Grant Taylor",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL",
+            "SP"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Garrett Crochet",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "SIXTY_DAY_DL"
+        },
+        {
+          "name": "Casey Mize",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Nick Kurtz",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "TEN_DAY_DL"
+        },
+        {
+          "name": "Jacob Wilson",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Eury Perez",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Josh Jung",
+          "positions": [
+            "3B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Logan Henderson",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Kade Anderson",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Sean Burke",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Jung Hoo Lee",
+          "positions": [
+            "CF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "RF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Carson Benge",
+          "positions": [
+            "LF",
+            "CF",
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Dylan Lee",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Foster Griffin",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Sam Antonacci",
+          "positions": [
+            "2B",
+            "3B",
+            "2B/SS",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL",
+            "LF",
+            "OF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Denzer Guzman",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL",
+            "3B",
+            "1B/3B"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Henry Bolte",
+          "positions": [
+            "CF",
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Kody Clemens",
+          "positions": [
+            "1B",
+            "2B",
+            "2B/SS",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL",
+            "OF",
+            "LF",
+            "RF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Reynaldo Lopez",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL",
+            "RP"
+          ],
+          "injury": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team": "Team Quinn",
+      "roster": [
+        {
+          "name": "Jose Ramirez",
+          "positions": [
+            "3B",
+            "1B/3B",
+            "IF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "TEN_DAY_DL"
+        },
+        {
+          "name": "Matt Olson",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Logan Gilbert",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Yoshinobu Yamamoto",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Max Fried",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "FIFTEEN_DAY_DL"
+        },
+        {
+          "name": "Cade Smith",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Drake Baldwin",
+          "positions": [
+            "C",
+            "UTIL",
+            "BE",
+            "IL",
+            "DH"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "David Bednar",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Drew Rasmussen",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Chandler Simpson",
+          "positions": [
+            "LF",
+            "CF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Jeremy Pena",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Matthew Boyd",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Andrew Abbott",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Spencer Schwellenbach",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "SIXTY_DAY_DL"
+        },
+        {
+          "name": "Jackson Holliday",
+          "positions": [
+            "2B",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Geraldo Perdomo",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Nico Hoerner",
+          "positions": [
+            "2B",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL",
+            "SS"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Grant Holmes",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Liam Hicks",
+          "positions": [
+            "C",
+            "1B",
+            "1B/3B",
+            "IF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Ernie Clement",
+          "positions": [
+            "2B",
+            "3B",
+            "SS",
+            "2B/SS",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Bryan Baker",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Bryan Reynolds",
+          "positions": [
+            "RF",
+            "OF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL",
+            "LF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Eduardo Rodriguez",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Spencer Steer",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL",
+            "OF",
+            "LF",
+            "RF",
+            "2B",
+            "2B/SS"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Nick Martinez",
+          "positions": [
+            "P",
+            "SP",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Christian Vazquez",
+          "positions": [
+            "C",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Mauricio Dubon",
+          "positions": [
+            "2B",
+            "3B",
+            "SS",
+            "2B/SS",
+            "1B/3B",
+            "IF",
+            "LF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "CF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Brandon Marsh",
+          "positions": [
+            "LF",
+            "CF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "RF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Hurston Waldrep",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Luis Garcia Jr.",
+          "positions": [
+            "2B",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL",
+            "1B",
+            "1B/3B"
+          ],
+          "injury": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team": "Mayor of Titty-City",
+      "roster": [
+        {
+          "name": "Julio Rodriguez",
+          "positions": [
+            "CF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "SEVEN_DAY_DL"
+        },
+        {
+          "name": "Fernando Tatis Jr.",
+          "positions": [
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "2B",
+            "2B/SS",
+            "IF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Vinnie Pasquantino",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Pete Crow-Armstrong",
+          "positions": [
+            "CF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Shea Langeliers",
+          "positions": [
+            "C",
+            "UTIL",
+            "BE",
+            "IL",
+            "DH"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Spencer Strider",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "SIXTY_DAY_DL"
+        },
+        {
+          "name": "Jose Altuve",
+          "positions": [
+            "2B",
+            "2B/SS",
+            "IF",
+            "LF",
+            "OF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Cristopher Sanchez",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Shota Imanaga",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Willson Contreras",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "SUSPENSION"
+        },
+        {
+          "name": "JJ Wetherholt",
+          "positions": [
+            "2B",
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Jac Caglianone",
+          "positions": [
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "1B",
+            "1B/3B",
+            "IF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Tyler Soderstrom",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "LF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Ryan Waldschmidt",
+          "positions": [
+            "LF",
+            "CF",
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Shane McClanahan",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "George Springer",
+          "positions": [
+            "RF",
+            "OF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Erik Sabrowski",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Max Muncy",
+          "positions": [
+            "3B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Kazuma Okamoto",
+          "positions": [
+            "3B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Jared Jones",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Zack Gelof",
+          "positions": [
+            "2B",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL",
+            "OF",
+            "CF",
+            "3B",
+            "1B/3B"
+          ],
+          "injury": "TEN_DAY_DL"
+        },
+        {
+          "name": "Bo Bichette",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL",
+            "3B",
+            "1B/3B"
+          ],
+          "injury": "DAY_TO_DAY"
+        },
+        {
+          "name": "Jason Adam",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "FIFTEEN_DAY_DL"
+        },
+        {
+          "name": "Kevin Kelly",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "JJ Bleday",
+          "positions": [
+            "CF",
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "LF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Tyler Rogers",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Jacob Latz",
+          "positions": [
+            "P",
+            "SP",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Tatsuya Imai",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Joey Cantillo",
+          "positions": [
+            "P",
+            "SP",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "JoJo Romero",
+          "positions": [
+            "P",
+            "RP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team": "yahtzee BEEZNUTZ",
+      "roster": [
+        {
+          "name": "Bobby Witt Jr.",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Ketel Marte",
+          "positions": [
+            "2B",
+            "2B/SS",
+            "IF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Manny Machado",
+          "positions": [
+            "3B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "William Contreras",
+          "positions": [
+            "C",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Jarren Duran",
+          "positions": [
+            "LF",
+            "CF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Randy Arozarena",
+          "positions": [
+            "LF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Oneil Cruz",
+          "positions": [
+            "CF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "TEN_DAY_DL"
+        },
+        {
+          "name": "Jacob Misiorowski",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "DAY_TO_DAY"
+        },
+        {
+          "name": "Mike Trout",
+          "positions": [
+            "RF",
+            "OF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL",
+            "CF"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Aaron Nola",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Alec Burleson",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "LF",
+            "RF",
+            "OF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Mitch Keller",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Gavin Williams",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "MacKenzie Gore",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Cade Horton",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "SIXTY_DAY_DL"
+        },
+        {
+          "name": "Sandy Alcantara",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Roki Sasaki",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Noelvi Marte",
+          "positions": [
+            "3B",
+            "1B/3B",
+            "IF",
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Ezequiel Tovar",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Kodai Senga",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Gabriel Moreno",
+          "positions": [
+            "C",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Jeimer Candelario",
+          "positions": [
+            "1B",
+            "3B",
+            "1B/3B",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Chris Bassitt",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "FIFTEEN_DAY_DL"
+        },
+        {
+          "name": "Bryce Miller",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Dustin May",
+          "positions": [
+            "P",
+            "SP",
+            "BE",
+            "IL"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Colt Emerson",
+          "positions": [
+            "SS",
+            "2B/SS",
+            "IF",
+            "UTIL",
+            "BE",
+            "IL",
+            "3B",
+            "1B/3B"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Luis Arraez",
+          "positions": [
+            "1B",
+            "1B/3B",
+            "IF",
+            "DH",
+            "UTIL",
+            "BE",
+            "IL",
+            "2B",
+            "2B/SS"
+          ],
+          "injury": "ACTIVE"
+        },
+        {
+          "name": "Zach McKinstry",
+          "positions": [
+            "3B",
+            "SS",
+            "2B/SS",
+            "1B/3B",
+            "IF",
+            "RF",
+            "OF",
+            "UTIL",
+            "BE",
+            "IL",
+            "2B"
+          ],
+          "injury": "ACTIVE"
+        }
+      ]
+    }
+  ]
+}
